@@ -8,6 +8,17 @@ All notable features, updates, fixes, security hardening, infrastructure work, t
 
 Dates are based on the repository git history. Entries are grouped by development milestone so the progress of the job posting platform can be followed from the current state back to the initial build.
 
+## 2026-08-14
+
+### Fixed
+
+- Fixed the first MemberClicks SSO login attempt redirecting to the internal `localhost:8080` address by building the SSO state redirect from the proxy-aware public request origin.
+- Preserved safe post-login destinations while rejecting external redirect targets during SSO state initialization.
+
+### Tests
+
+- Added regression coverage for public-origin redirects behind a reverse proxy and unsafe external `next` destinations.
+
 ## 2026-08-13
 
 ### Added
