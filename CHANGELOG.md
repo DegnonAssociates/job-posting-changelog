@@ -4,6 +4,20 @@ All notable features, updates, fixes, security hardening, infrastructure work, t
 
 Dates are based on the repository git history. Entries are grouped by development milestone so the progress of the job posting platform can be followed from the current state back to the initial build.
 
+## 2026-09-03
+
+### Added
+
+- Grant the local `ADMIN` role during MemberClicks login when the issued OAuth token contains the exact `ROLE_ADMIN` authority, while preserving existing roles and preventing duplicates.
+
+### Security
+
+- Moved MemberClicks profile synchronization into the server-side OAuth callback and disabled the legacy public token-bearing synchronization route.
+
+### Tests
+
+- Added regression coverage for MemberClicks authority parsing, role merging, new and existing users, concurrent synchronization, profile failures, callback sessions, and the disabled legacy route.
+
 ## 2026-08-25
 
 ### Updated
