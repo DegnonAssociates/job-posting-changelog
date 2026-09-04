@@ -24,6 +24,20 @@ Dates are based on the repository git history. Entries are grouped by developmen
 
 - Updated Next.js from `16.2.11` to `16.3.3` and refreshed its locked image-processing dependencies.
 
+## 2026-08-21
+
+### Added
+
+- Added a tenant-aware Neon CRM SSO flow with signed, expiring OAuth transactions, safe post-login redirects, Neon profile synchronization, and signed application sessions.
+
+### Security
+
+- Restricted Neon CRM login initiation to same-origin requests and validated callback state, tenant, origin, and transaction expiry before authenticating users.
+
+### Tests
+
+- Added coverage for Neon OAuth response parsing, transaction signing, authentication exchange, account synchronization, and route behavior.
+
 ## 2026-08-14
 
 ### Fixed
