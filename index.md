@@ -8,6 +8,12 @@ All notable features, updates, fixes, security hardening, infrastructure work, t
 
 Dates are based on the repository git history. Entries are grouped by development milestone so the progress of the job posting platform can be followed from the current state back to the initial build.
 
+## 2026-09-04
+
+### Added
+
+- Added Canadian provinces and territories to the company location selector, grouped separately from U.S. states.
+
 ## 2026-09-03
 
 ### Added
