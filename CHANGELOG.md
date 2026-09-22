@@ -4,6 +4,12 @@ All notable features, updates, fixes, security hardening, infrastructure work, t
 
 Dates are based on the repository git history. Entries are grouped by development milestone so the progress of the job posting platform can be followed from the current state back to the initial build.
 
+## 2026-09-22
+
+### Updated
+
+- Updated Next.js from `16.3.3` to `16.3.6` and refreshed its locked image-processing dependencies.
+
 ## 2026-09-04
 
 ### Added
