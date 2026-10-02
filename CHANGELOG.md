@@ -9,6 +9,11 @@ Dates are based on the repository git history. Entries are grouped by developmen
 ### Updated
 
 - Updated Next.js from `16.3.3` to `16.3.6` and refreshed its locked image-processing dependencies.
+## 2026-09-16
+
+### Changed
+
+- Standardized company logo display bounds across cards and detail pages while preserving wide, square, and tall logo aspect ratios.
 
 ## 2026-09-04
 
