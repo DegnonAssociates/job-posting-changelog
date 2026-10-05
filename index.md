@@ -10,9 +10,22 @@ Dates are based on the repository git history. Entries are grouped by developmen
 
 ## 2026-10-05
 
+### Added
+
+- Added Neon CRM email-based membership verification to instance 7 job posting and renewal forms, defaulting to the signed-in poster's current membership and applying the verified member or non-member rate.
+
 ### Fixed
 
 - Fixed Neon Pay submissions failing at the database lock by explicitly casting both lock keys to integers, preserving protection against duplicate payment attempts.
+- Fixed Neon membership pricing checks to read current status from individual and company account wrappers, preventing active members from receiving the non-member rate.
+
+### Security
+
+- Server-verify instance 7 membership results before saving a posting or renewal so client-submitted pricing tiers cannot override the Neon CRM result.
+
+### Tests
+
+- Added coverage for active, inactive, missing, and unavailable Neon CRM membership lookups and server-enforced pricing tiers.
 
 ## 2026-09-22
 
