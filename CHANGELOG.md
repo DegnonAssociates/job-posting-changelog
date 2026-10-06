@@ -4,6 +4,12 @@ All notable features, updates, fixes, security hardening, infrastructure work, t
 
 Dates are based on the repository git history. Entries are grouped by development milestone so the progress of the job posting platform can be followed from the current state back to the initial build.
 
+## 2026-10-06
+
+### Changed
+
+- Limited instance 7's posting-for membership lookup to new job submissions, saved the checked email with the job, and made renewals determine pricing from that stored email or the posting user's own membership.
+
 ## 2026-10-05
 
 ### Added
