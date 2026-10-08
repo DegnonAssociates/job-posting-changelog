@@ -4,6 +4,13 @@ All notable features, updates, fixes, security hardening, infrastructure work, t
 
 Dates are based on the repository git history. Entries are grouped by development milestone so the progress of the job posting platform can be followed from the current state back to the initial build.
 
+## 2026-10-08
+
+### Changed
+
+- Require Node.js 22.21.1 or newer within the Node 22 release line for Railway builds and runtime, keeping AWS SDK updates supported after Node 20 support ends.
+- Align local development with Node 22 through `.nvmrc`, updated TypeScript definitions, and setup documentation.
+
 ## 2026-10-07
 
 ### Fixed
