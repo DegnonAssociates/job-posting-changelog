@@ -8,6 +8,12 @@ All notable features, updates, fixes, security hardening, infrastructure work, t
 
 Dates are based on the repository git history. Entries are grouped by development milestone so the progress of the job posting platform can be followed from the current state back to the initial build.
 
+## 2026-10-14
+
+### Fixed
+
+- Allow Next.js to validate Server Action identifiers so legitimate admin actions, including payment verification, are no longer rejected with HTTP 400 responses after framework identifier-format changes.
+
 ## 2026-10-12
 
 ### Fixed
