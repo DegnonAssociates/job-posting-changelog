@@ -10,6 +10,11 @@ Dates are based on the repository git history. Entries are grouped by developmen
 
 - Added a Recently Expired filter to the admin job dashboard for postings that expired within the last three months.
 
+### Changed
+
+- Send job notifications and renewal reminders directly through Amazon SES using the existing `JobBoardNextJS` credentials, removing the AWS-API mail relay dependency while preserving instance senders, recipients, templates, and cron behavior.
+- Include a plain-text email alternative, require an SES message ID before reporting acceptance, and use one SDK attempt with a ten-second timeout and explicit feedback for uncertain delivery outcomes.
+
 ## 2026-10-14
 
 ### Fixed
