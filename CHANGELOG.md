@@ -4,6 +4,12 @@ All notable features, updates, fixes, security hardening, infrastructure work, t
 
 Dates are based on the repository git history. Entries are grouped by development milestone so the progress of the job posting platform can be followed from the current state back to the initial build.
 
+## 2026-10-20
+
+### Added
+
+- Added the original posted date to active job rows in the admin dashboard.
+
 ## 2026-10-15
 
 ### Added
