@@ -8,6 +8,19 @@ All notable features, updates, fixes, security hardening, infrastructure work, t
 
 Dates are based on the repository git history. Entries are grouped by development milestone so the progress of the job posting platform can be followed from the current state back to the initial build.
 
+## 2026-10-27
+
+### Changed
+
+- Keep mobile navigation labels visible and give job and employer cards smaller logos, readable titles, and keyboard focus indicators on narrow screens.
+- Add persistent job-filter labels, clear-filter actions, announced result states, recoverable loading failures, and shareable search URLs that remain available when returning from job details.
+- Order newest jobs by their most recent posting or renewal date, with legacy date fallbacks and matching cursor pagination; use an explicit Load more jobs action.
+- Add a visible How to apply action, preserve existing employer application instructions, and provide guidance when separate instructions are missing.
+
+### Fixed
+
+- Keep the server-side HTML sanitizer external to Next.js bundles so jsdom can resolve its packaged stylesheet during production builds and server rendering.
+
 ## 2026-10-20
 
 ### Added
