@@ -11,6 +11,8 @@ Dates are based on the repository git history. Entries are grouped by developmen
 - Replace the dashboard sidebar with a horizontal header, keeping organization logos on white and displaying the primary color in the header divider and active navigation underline.
 - Keep public, member, and admin navigation available in a wrapping layout on narrow screens, with the theme toggle in the header.
 - Use the light-background organization logo in the white logo area in both themes, with a readable organization-name fallback when no logo is available.
+- Standardize the app on light mode and remove the theme toggle; saved dark or system preferences no longer change organization colors, logos, notifications, or editor controls.
+- Remove the white header-logo container so transparent organization logos blend into the header background.
 
 ## 2026-10-27
 
