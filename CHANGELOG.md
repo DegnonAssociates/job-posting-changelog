@@ -4,6 +4,14 @@ All notable features, updates, fixes, security hardening, infrastructure work, t
 
 Dates are based on the repository git history. Entries are grouped by development milestone so the progress of the job posting platform can be followed from the current state back to the initial build.
 
+## 2026-10-28
+
+### Changed
+
+- Replace the dashboard sidebar with a horizontal header, keeping organization logos on white and displaying the primary color in the header divider and active navigation underline.
+- Keep public, member, and admin navigation available in a wrapping layout on narrow screens, with the theme toggle in the header.
+- Use the light-background organization logo in the white logo area in both themes, with a readable organization-name fallback when no logo is available.
+
 ## 2026-10-27
 
 ### Changed
