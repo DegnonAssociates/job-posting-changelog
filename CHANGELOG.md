@@ -4,6 +4,13 @@ All notable features, updates, fixes, security hardening, infrastructure work, t
 
 Dates are based on the repository git history. Entries are grouped by development milestone so the progress of the job posting platform can be followed from the current state back to the initial build.
 
+## 2026-11-09
+
+### Changed
+
+- Activate new and renewed job postings immediately after a successful payment while recording the payment audit and transaction ledger entries atomically.
+- Keep administrator verification available for payments that were already awaiting review before the automatic publication flow was introduced.
+
 ## 2026-10-28
 
 ### Changed
