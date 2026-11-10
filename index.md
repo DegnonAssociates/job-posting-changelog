@@ -8,6 +8,16 @@ All notable features, updates, fixes, security hardening, infrastructure work, t
 
 Dates are based on the repository git history. Entries are grouped by development milestone so the progress of the job posting platform can be followed from the current state back to the initial build.
 
+## 2026-11-10
+
+### Added
+
+- Configure the main navigation logo destination per instance with the nullable `home_url` field, falling back to the app home route when unset or invalid. Includes a database migration to add the column.
+
+### Fixed
+
+- Request header logo images at resolutions appropriate for their displayed width and high-density screens to avoid stretching undersized downloads.
+
 ## 2026-11-09
 
 ### Changed
