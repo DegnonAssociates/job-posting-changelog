@@ -8,6 +8,12 @@ All notable features, updates, fixes, security hardening, infrastructure work, t
 
 Dates are based on the repository git history. Entries are grouped by development milestone so the progress of the job posting platform can be followed from the current state back to the initial build.
 
+## 2026-11-12
+
+### Changed
+
+- Include the job ID and richer job and payment details in poster confirmations and administrator verification notifications for new-posting and renewal payments.
+
 ## 2026-11-10
 
 ### Added
