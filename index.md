@@ -13,6 +13,7 @@ Dates are based on the repository git history. Entries are grouped by developmen
 ### Changed
 
 - Include the job ID and richer job and payment details in poster confirmations and administrator verification notifications for new-posting and renewal payments.
+- Replace the administrator payment-review filter with a successful-renewal filter, using recorded renewal dates for imported and legacy jobs without native payment history, and make admin job and company columns sortable in a more compact layout with renewal and removal dates and truncated long positions.
 
 ## 2026-11-10
 
