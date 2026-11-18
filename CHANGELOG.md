@@ -10,12 +10,28 @@ Dates are based on the repository git history. Entries are grouped by developmen
 
 - Reuse legacy tenant users matched by their Neon account ID during Neon sign-in, and recover concurrent-callback uniqueness races so valid job posters are not blocked by duplicate user records.
 
+## 2026-11-18
+
+### Added
+
+- Add nullable `instance.merchant_api_key` storage and a database migration for the server-side Moolah transaction-query credential.
+- Include the gateway-reported total paid, card type, and masked card number in MemberClicks posting and renewal receipts, including administrator confirmations and resends.
+
+### Changed
+
+- Omit card details when the instance is not configured for MemberClicks or lacks a merchant key. If a configured gateway lookup fails, still send confirmation with the recorded amount and a card-details-unavailable note.
+
+### Security
+
+- Exclude the merchant key from browser-facing instance data, and mask any unexpectedly unmasked card number before including it in an email.
+
 ## 2026-11-12
 
 ### Changed
 
 - Include the job ID and richer job and payment details in poster confirmations and administrator verification notifications for new-posting and renewal payments.
 - Replace the administrator payment-review filter with a successful-renewal filter, using recorded renewal dates for imported and legacy jobs without native payment history, and make admin job and company columns sortable in a more compact layout with renewal and removal dates and truncated long positions.
+
 
 ## 2026-11-10
 
