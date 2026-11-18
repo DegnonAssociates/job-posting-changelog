@@ -8,6 +8,12 @@ All notable features, updates, fixes, security hardening, infrastructure work, t
 
 Dates are based on the repository git history. Entries are grouped by development milestone so the progress of the job posting platform can be followed from the current state back to the initial build.
 
+## Unreleased
+
+### Fixed
+
+- Reuse legacy tenant users matched by their Neon account ID during Neon sign-in, and recover concurrent-callback uniqueness races so valid job posters are not blocked by duplicate user records.
+
 ## 2026-11-12
 
 ### Changed
